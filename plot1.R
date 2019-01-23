@@ -2,8 +2,8 @@
 ##download the file from the link and unzip the file into the same directory
 ##if you want to change to another directory, you can edit the scripts
 fileurl<-"https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
-download.file(fileurl, destfile="./exploratory_data_analysis/power.zip")
-zipfile<-"./exploratory_data_analysis/power.zip"
+download.file(fileurl, destfile="./power.zip")
+zipfile<-"./power.zip"
 unzip(zipfile, exdir=".")
 
 ##read the desired data from the file
